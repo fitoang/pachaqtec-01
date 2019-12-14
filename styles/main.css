@@ -185,7 +185,7 @@ progress {
   background-color: rgb(10, 89, 89);
   padding: 20px;
   width: 920px;
-  height: 360px;
+  height: 550px;
   position: relative;
 }
 
@@ -216,4 +216,29 @@ input {
   font-size: 15px;
   padding: 8px 14px;
   border-radius: 10px;
+}
+
+/*14 December 2019_Sem3_Form */
+
+input:focus:valid {
+  border: 3px solid #4cb1f7;
+  background: #0233cb;
+}
+
+input:focus:invalid {
+  border: 3px solid #f20732;
+  background: #f25ca2;
+}
+label {
+  background: white;
+  color: rgb(104, 104, 104);
+  padding: 8px;
+  font-size: 13px;
+}
+
+.submit1:hover {
+  background-color: rgb(67, 70, 64);
+}
+.button_cv:hover {
+  background-color: rgb(252, 54, 146);
 }
